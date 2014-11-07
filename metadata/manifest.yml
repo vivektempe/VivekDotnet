@@ -1,20 +1,11 @@
-Name: dotnet
-Cartridge-Short-Name: DOTNET
-Cartridge-Version: '0.0.1'
-Compatible-Versions: ['0.0.1']
-Cartridge-Vendor: vivekt
-Display-Name: DotNet 4.5
+Name: dotnet Cartridge-Short-Name: DOTNET
+Cartridge-Version: '0.0.1' Compatible-Versions: ['0.0.1']
+Cartridge-Vendor: vivekt Display-Name: DotNet 4.5
 Description: "Microsoft DotNet 4.5 Cartrige."
-Version: '4.5'
-Versions: ['4.5']
-License: "??"
-License-Url: "http://www.uhurusoftware.com"
-Vendor: "Uhuru Software"
-Platform: "Windows"
+Version: '4.5' Versions: ['4.5'] License: "??"
+License-Url: "http://www.uhurusoftware.com" Vendor: "Uhuru Software" Platform: "Windows"
 Categories:
-  - service
-  - web_framework
-  - windows
+  - service  - web_framework  - windows
 Website: http://www.uhurusoftware.com/
 Help-Topics:
   "Developer Center": "http://www.uhurusoftware.com/community/developers"
@@ -53,13 +44,9 @@ Provides:
   - dotnet-4.5
 Publishes: {}
 Subscribes:
-  set-env:
-    Type: "ENV:*"
-    Required: false
+  set-env:    Type: "ENV:*"    Required: false
 Scaling:
-  Min: 1
-  Max: -1
-  Required: true
+  Min: 1  Max: -1  Required: true
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
@@ -70,5 +57,4 @@ Endpoints:
     Options:
       primary: true
     Mappings:
-      - Frontend:      ""
-        Backend:       ""    
+      - Frontend:      ""        Backend:       ""    
