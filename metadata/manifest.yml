@@ -71,7 +71,7 @@ Subscribes:
 Scaling:
   Min: 1
   Max: -1
-  Required: true
+  Required: false
 Endpoints:
 #Endpoints are where front-end httpd mappings for your cartridge are declared to route traffic from the outside world to your cartridge’s services.
   - Private-IP-Name:   IP
