@@ -1,7 +1,7 @@
 Name: dotnet 
 Cartridge-Short-Name: DOTNET
-Cartridge-Version: '0.0.1' 
-Compatible-Versions: ['0.0.1']
+Cartridge-Version:'0.0.1' 
+Compatible-Versions:['0.0.1']
 Cartridge-Vendor: vivekt
 Display-Name: DotNet 4.5
 Description: "Microsoft DotNet 4.5 Cartrige."
