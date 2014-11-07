@@ -71,12 +71,12 @@ Subscribes:
 Scaling:
   Min: 1
   Max: -1
-  Required: false
+  Required: true
 Endpoints:
 #Endpoints are where front-end httpd mappings for your cartridge are declared to route traffic from the outside world to your cartridge’s services.
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
-    Private-Port:      8080
+    Private-Port:      0
     Public-Port-Name:  PROXY_PORT
     Protocols: 
       - http
