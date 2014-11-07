@@ -59,7 +59,7 @@ Subscribes:
     Required: false
 Scaling:
   Min: 1
-  Max: -1
+  Max: 10
   Required: true
 Endpoints:
   - Private-IP-Name:   IP
