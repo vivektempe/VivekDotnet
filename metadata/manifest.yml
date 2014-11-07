@@ -71,4 +71,4 @@ Endpoints:
       primary: true
     Mappings:
       - Frontend:      ""        
-      - Backend:       ""    
+      Backend:       ""    
