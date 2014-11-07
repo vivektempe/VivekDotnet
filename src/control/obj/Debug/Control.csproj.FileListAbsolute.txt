@@ -1,0 +1,1 @@
+D:\Vivek\OpenShift\openshift.net-master\cartridges\openshift-origin-cartridge-dotnet\bin\control.exe.config
