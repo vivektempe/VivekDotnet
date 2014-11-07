@@ -57,13 +57,10 @@ Subscribes:
   set-env:
     Type: "ENV:*"
     Required: false
-Scaling:
-  Min: 1
-  Max: 10
-  Required: true
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
+    Private-Port:      80
     Public-Port-Name:  PROXY_PORT
     Protocols: 
       - http
