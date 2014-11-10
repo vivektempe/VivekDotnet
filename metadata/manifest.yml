@@ -9,16 +9,11 @@ Description: "Microsoft DotNet 4.5 Cartrige."
 Version: '4.5'
 Versions: ['4.5']
 License: "??"
-License-Url: "http://www.uhurusoftware.com"
-Vendor: "Uhuru Software"
 Platform: "Windows"
 Categories:
   - service
   - web_framework
   - windows
-Website: http://www.uhurusoftware.com/
-Help-Topics:
-  "Developer Center": "http://www.uhurusoftware.com/community/developers"
 Cart-Data:
   - Key: OPENSHIFT_DOTNET_LOG_DIR
     Type: environment
