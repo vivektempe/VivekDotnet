@@ -60,7 +60,7 @@ Subscribes:
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
-    Private-Port:      8080
+    Private-Port:      0
     Public-Port-Name:  PROXY_PORT
     Protocols: 
       - http
